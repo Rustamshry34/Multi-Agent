@@ -5,8 +5,11 @@
 
 It integrates specialized agents for research, code execution, and data science workflows under the coordination of a manager agent.
 The system demonstrates how autonomous agents can collaborate to solve end-to-end tasks such as:
+
 **Web research**
+
 **Writing and executing code safely in sandboxed Docker environments**
+
 **Data analysis, cleaning, visualization, and machine learning via AutoML**
 
 
@@ -15,14 +18,18 @@ The system demonstrates how autonomous agents can collaborate to solve end-to-en
 ### 🗂️ Planner Agent
 
 **Breaks down complex tasks into subtasks**
+
 **Routes them to the appropriate specialized agents**
+
 **Uses Hugging Face Qwen2.5-Coder-32B-Instruct model for reasoning**
 
 
 ### 🔎 Research Agent
 
 **Performs internet searches using the Tavily API**
+
 **Extracts contextual insights with query/topic filtering**
+
 **Supports raw content retrieval for deeper analysis**
 
 
@@ -32,17 +39,24 @@ Executes Python code in sandboxed Docker containers.
 Tools supported:
 
 **code_executor → Safe Docker execution**
+
 **run_manifest → End-to-end code execution with dependency installation**
+
 **save_files, list_workspace_files, package_artifact, cleanup_workspace**
+
 **Supports artifact packaging (ZIP) for deployment**
 
 
 ### 📊 Data Science Agent
 
 Provides a full data science workflow:
+
 **LoadData: Reads CSVs into memory**
+
 **CleanData: Handles missing values, encodes categoricals, and removes outliers**
+
 **EDA: Produces summary statistics, correlations, skewness, distributions & recommendations**
+
 **AutoML (classification & regression)**
 
 ## 🔧 Features
