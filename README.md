@@ -1,5 +1,5 @@
-🧠 Multi-Agent System with SmolAgents
-📌 Overview
+🧠 # Multi-Agent System with SmolAgents
+📌 # Overview
 
 This project implements a multi-agent system built on top of SmolAgents
 .
