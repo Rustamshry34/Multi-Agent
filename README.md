@@ -1,8 +1,8 @@
-🧠 # Multi-Agent System with SmolAgents
-📌 # Overview
+🧠  Multi-Agent System with SmolAgents
+📌  Overview
 
 This project implements a multi-agent system built on top of SmolAgents
-.
+
 It integrates specialized agents for research, code execution, and data science workflows under the coordination of a manager agent.
 
 The system demonstrates how autonomous agents can collaborate to solve end-to-end tasks such as:
