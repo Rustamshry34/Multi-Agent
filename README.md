@@ -77,5 +77,6 @@ AutoML: Detects target, selects between classification/regression, trains baseli
 Generates plots (missingness heatmap, correlation heatmap, distributions, target relationships).
 
 
-Streamlit UI
+## Streamlit UI
+
 The UI is still work-in-progress
