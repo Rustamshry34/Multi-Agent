@@ -48,11 +48,17 @@ Provides a full data science workflow:
 ## 🔧 Features
 
 **🔄 Orchestration with a Manager Agent that routes tasks to the correct specialized agent**
+
 **🌐 Internet Research with TavilyClient**
+
 **🐳 Secure Code Execution with Docker sandboxes (no host pollution)**
+
 **📈 Automated EDA with advanced visualizations (Seaborn/Matplotlib)**
+
 **🤖 AutoML baseline training with scikit-learn (classification & regression)**
+
 **📦 Artifact Management: Save, list, package, and clean workspaces**
+
 **🔌 Extensible: Add more tools/agents easily**
 
 
