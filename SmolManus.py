@@ -20,9 +20,7 @@ import io
 
 
 # Initialize Tavily client for web search
-#tavily_client = TavilyClient(api_key=os.environ["TAVILY_API_KEY"])
 tavily_client = TavilyClient(api_key="")
-#os.environ["HF_TOKEN"] = "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"
 os.environ["HF_TOKEN"] = ""
 # ----------------- Tools -----------------
     
@@ -883,6 +881,7 @@ manager_agent = ToolCallingAgent(
 #def run_agent(user_input):
 
     #return manager_agent.run(user_input)
+
 
 
 
